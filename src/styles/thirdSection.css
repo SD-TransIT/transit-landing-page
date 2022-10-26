@@ -1,0 +1,35 @@
+.container-third {
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container-third > div {
+    padding-bottom: 54px;
+}
+
+.big-text-field-third {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 24px;
+    color: #433D3D;
+}
+
+.big-text-field-third > div {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    color: #433D3D;
+}
+
+.small-text-field-third {
+    padding-bottom: 24px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #433D3D;
+}

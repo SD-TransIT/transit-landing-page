@@ -1,0 +1,14 @@
+.container-second {
+    background: rgba(6, 104, 108, 0.65);
+    height: 332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-second > p {
+    width: 249px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}

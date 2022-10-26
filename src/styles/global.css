@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Mulish";
+    /* font-weight: 600; */
+    /* letter-spacing: 0.0275em; */
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: #FFFFFF;
+    line-height: 24px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 30px;
+    width: 170px;
+    height: 48px;
+    background-color: #06686C;
+    border-radius: 40px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button:hover {
+    background-color: #298185;
+}
+
+.button:disabled {
+    background-color: #80BCBF;
+}
+
+.features-nav {
+    width: 198px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8C8C8C;
+    border: 2px solid transparent;
+    background-color: #FFFFFF;
+    gap: 17px;
+    padding: 0 24px 0 24px;
+}
+
+.features-nav > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: max-content;
+}
+
+.features-nav:hover {
+    background-color: #E0EEEF;
+    color: #298185;
+}
+
+.features-nav:focus {
+    border-bottom: 2px solid #298185;
+    color: #298185;
+}
+
+.input-container {
+    font-family: "Mulish";
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #06686C;
+    width: 100%;
+}
+
+.input-label {
+    height: 20px;
+}
+
+.input {
+    outline: none;
+    height: 48px;
+    border: 1px solid #C4C4C4;
+    border-radius: 6px;
+    color: #433D3D;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 15px ;
+}
+
+.input-invalid {
+    border: 1px solid #C94747;
+}
+
+.required-field::after {
+    color: #C94747;
+    content: '*';
+}
+
+.required-message {
+    color: #C94747;
+    font-size: 15px;
+    height: 16px;
+    position: inherit;
+    top: -6px
+}
+
+.tile-container {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 430px;
+    border-radius: 5px;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.image-container {
+    width: 390px;
+    height: 341px;
+    border: 1px solid green;
+}
+
+.tile-link {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 5px;
+    color: #06686C;
+}
+
+.tile-message {
+    font-size: 18px;
+    font-weight: 500;
+    color: #433D3D
+}
+
+@media screen and (min-width: 786px) {
+    
+}

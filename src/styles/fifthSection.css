@@ -1,0 +1,37 @@
+.container-fifth {
+    background: rgba(245, 245, 245, 0.8);
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+
+}
+
+.big-text-field-fifth {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #433D3D;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.small-text-field-fifth {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #433D3D;
+    padding-bottom: 44px;
+    
+}
+
+.small-text-field-fifth > p {
+    width: 85%;
+}
+
+.fifth-images {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 47px;
+}
