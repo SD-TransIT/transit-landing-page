@@ -11,7 +11,7 @@ const FirstSection = () => {
 
     return (
         <div className="container-first">
-            <div className="">
+            <div>
                 <div className="logo">
                     <img src={logo} alt="logo" width='115px' height='52px'/>
                 </div>

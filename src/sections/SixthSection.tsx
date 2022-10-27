@@ -1,7 +1,6 @@
 import React from "react";
 
 import { RiCheckFill } from "react-icons/ri"
-import phone from '../images/phone.jpg'
 
 import '../styles/sixthSection.css';
 
@@ -18,7 +17,7 @@ const SixthSection = () => {
 
     return (
         <div className="container-sixth">
-            <div className="">
+            <div>
                 <div className="big-text-field-sixth">
                     <p>
                         <span>Key Benefits</span> 
@@ -27,17 +26,14 @@ const SixthSection = () => {
                 </div>
             </div>
             <div>
-                    {benefits.map((benefit, idx) => {
-                        return (
-                            
-                            <div className="small-text-field-sixth">
-                                <div className="checkmark">
-                                    <RiCheckFill />
-                                </div>
-                                <p key={idx}>{benefit.label}</p>
-                            </div>
-                        )
-                    })}
+                {benefits.map((benefit, idx) => (
+                    <div className="small-text-field-sixth">
+                        <div className="checkmark">
+                            <RiCheckFill />
+                        </div>
+                        <p key={idx}>{benefit.label}</p>
+                    </div>
+                ))}
                 </div>
             </div>
     )

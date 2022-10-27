@@ -1,0 +1,18 @@
+.container-case-studies {
+    padding: 0 10% 0 10%;
+}
+
+.big-text-field-case-studies {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.container-case-studies-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

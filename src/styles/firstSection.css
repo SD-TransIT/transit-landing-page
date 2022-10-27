@@ -16,6 +16,7 @@
     flex-direction: column;
     width: 100%;
     height: 96px;
+    line-height: 32px;
     color: #433D3D;
     font-size: 26px;
     padding-bottom: 24px;
@@ -35,17 +36,14 @@ p.green {
     font-family: 'Inter';
     display: flex;
     width: 100%;
-    color: #433D3D;
     font-size: 16px;
     text-align: center;
 }
 
 .small-text-field > p {
-    /* display: flex; */
-    /* justify-content: center; */
     width: 248px;
     margin: auto;
-
+    color: #433D3D;
 }
 
 .action-button {
