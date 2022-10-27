@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Button from '../components/Button'
 import logo from '../images/transit-logo.jpg'
 import firstSectionImg from '../images/first-section-img.jpg'
 
 import '../styles/firstSection.css';
-
+import Modal from "components/Modal";
+import RequestForm from "components/RequestForm";
 
 const FirstSection = () => {
-
+ const [isOpen, setIsOpen] = useState(true);
     return (
+        <>
         <div className="container-first">
             <div>
                 <div className="logo">
@@ -28,13 +30,18 @@ const FirstSection = () => {
             </div>
             <div>
                 <div className="action-button">
-                    <Button onClick={() => {}} label='Request Demo'/>
+                    <Button onClick={() => setIsOpen(true)} label='Request Demo'/>
                 </div>
                 <div className="first-images">
                     <img src={firstSectionImg} alt='truck' width='283px' height='262px' />
                 </div>
             </div>
-        </div>
+            </div>
+            {isOpen && <Modal setIsOpen={setIsOpen} headerTitle='Request a Demo' headerLabel="Please fill out the form below to request your demo.">
+            <RequestForm />   
+            </Modal>
+                }
+        </>
     )
 }
 

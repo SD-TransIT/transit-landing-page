@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import FeaturesNavButton from '../components/FeaturesNavButton'
-import firstSectionImg from '../images/first-section-img.jpg'
+import reportTruck from '../images/report-truck.jpg'
 import womenInTruck from '../images/women-in-truck.jpg'
 import deliveredPackage from '../images/package.jpg'
 import warehouse from '../images/warehouse.jpg'
@@ -35,8 +35,7 @@ const FourthSection = () => {
 
     const featuresDescriptions = [
         {
-            //change it to real image
-            img: firstSectionImg,
+            img: reportTruck,
             description: `Through the supply of constant information, TransIT creates an “instant report card” that
 enables distribution managers to better track shipments, make data-driven decisions, optimize distribution resources and assets, and use historical data to show trends over time.`,
             title: 'Dashboard',

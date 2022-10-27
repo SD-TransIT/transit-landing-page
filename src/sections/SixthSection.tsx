@@ -27,7 +27,7 @@ const SixthSection = () => {
             </div>
             <div>
                 {benefits.map((benefit, idx) => (
-                    <div className="small-text-field-sixth">
+                    <div className="small-text-field-sixth" key={idx}>
                         <div className="checkmark">
                             <RiCheckFill />
                         </div>

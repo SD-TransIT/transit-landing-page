@@ -1,6 +1,6 @@
 import React from "react";
 
-import phone from '../images/phone.jpg'
+import emptyPhone from '../images/empty-phone.jpg'
 
 import '../styles/fifthSection.css';
 
@@ -21,7 +21,7 @@ const FifthSection = () => {
             </div>
             <div>
                 <div className="fifth-images">
-                    <img src={phone} alt='phone' width='223px' height='223px' />
+                    <img src={emptyPhone} alt='phone' width='223px' height='223px' />
                 </div>
             </div>
         </div>
