@@ -13,3 +13,16 @@
     font-weight: 600;
     line-height: 28px;
 }
+
+@media screen and (min-width: 786px) {
+    .container-second {
+        height: 384px;
+    }
+
+    .container-second > p {
+        width: 1030px;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 48px;
+    }
+}

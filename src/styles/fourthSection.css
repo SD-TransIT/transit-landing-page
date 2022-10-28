@@ -14,6 +14,11 @@
     line-height: 26px;
 }
 
+.features-field > img {
+    width: 283px;
+    height: 262px;
+}
+
 .fourth-images {
     padding-bottom: 66px;
     padding-top: 69px;
@@ -52,4 +57,65 @@
 
 .small-text-field-fourth > p {
     width: 85%;
+}
+
+@media screen and (min-width: 786px) {
+    .big-text-field-fourth {
+        font-size: 42px;
+        line-height: 53px;
+    }
+
+    .features-field {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .features-field > div {
+        width: 50%;
+    }
+
+    .features-field > div > img {
+        width: 571px;
+        height: 502px;
+    }
+
+    .description-field {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small-text-field-fourth {
+        padding-bottom: 64px;
+        padding-left: 30px;
+    }
+
+    .features-nav-button {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .features-title {
+        display: flex;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        color: #06686C;
+        padding-bottom: 24px;
+        width: 100%;
+    }
+
+    .small-text-field-fourth {
+        width: 100%;
+        padding: 0 0;
+        justify-content: flex-start;
+    }
+
+    .small-text-field-fourth > p {
+        width: 85%;
+    }
 }

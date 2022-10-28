@@ -29,8 +29,8 @@ const ThirdSection = () => {
                 </div>
             </div>
             <div>
-                <div className="first-images">
-                    <img src={thirdSectionImg} alt='children' width='270px' height='228px' />
+                <div className="third-images">
+                    <img src={thirdSectionImg} alt='children' />
                 </div>
             </div>
         </div>

@@ -48,3 +48,42 @@
 .small-text-field-sixth > p {
     width: 80%;
 }
+
+@media screen and (min-width: 786px) {
+    .container-sixth {
+        padding: 5% 10%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-sixth > div {
+        width: 50%;
+    }
+
+    .big-text-field-sixth {
+        font-size: 42px;
+        line-height: 53px;
+        width: 431px;
+    }
+
+    .big-text-field-sixth > p > span {
+        color: #06686C;
+        padding-right: 4px;
+    }
+
+    .small-text-field-sixth {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .checkmark {
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+    }
+
+    .small-text-field-sixth > p {
+        width: 80%;
+    }
+}

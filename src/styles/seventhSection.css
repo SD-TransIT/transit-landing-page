@@ -36,3 +36,19 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (min-width: 786px) {
+    .big-text-field-seventh {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .small-text-field-seventh {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .small-text-field-seventh > p > span {
+        line-height: 28px;
+    }
+}

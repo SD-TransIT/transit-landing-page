@@ -31,3 +31,52 @@
     justify-content: center;
     padding-bottom: 47px;
 }
+
+.fifth-images > img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 47px;
+    width: 223px;
+    height: 223px;
+}
+
+@media screen and (min-width: 786px) {
+    .container-fifth {
+        display: flex;
+        flex-direction: row;
+        padding: 5% 10%;
+    }
+
+    .container-fifth > div {
+        width: 50%;
+    }
+
+    .big-text-field-fifth {
+        justify-content: left;
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    .small-text-field-fifth {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        padding: 0 5px 44px 5px;
+        width: 85%;
+    }
+
+    .small-text-field-fifth > p {
+        width: 85%;
+    }
+
+    .fifth-images {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 47px;
+    }
+
+    .fifth-images > img {
+        width: 424px;
+        height: 472px;
+    }
+}

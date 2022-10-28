@@ -16,3 +16,21 @@
     justify-content: center;
     flex-direction: column;
 }
+
+@media screen and (min-width: 786px) {
+    .container-case-studies {
+        padding: 0 5% 5% 5%;
+    }
+
+    .container-case-studies > div:last-of-type {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .big-text-field-case-studies {
+        padding-bottom: 68px;
+        font-size: 42px;
+        line-height: 53px;
+    }
+}

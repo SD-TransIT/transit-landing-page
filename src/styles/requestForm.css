@@ -1,0 +1,25 @@
+.submit-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 22px;
+}
+
+@media screen and (min-width: 786px) {
+    .form-container > form > div {
+        display: flex; 
+        flex-direction: row;
+        width: 100%;
+        gap: 20px
+    }
+
+    .input-field {
+        width: 50%;
+    }
+
+    .submit-button > button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

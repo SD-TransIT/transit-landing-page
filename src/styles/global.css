@@ -14,6 +14,7 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
 .App {
     display: flex;
     justify-content: center;
@@ -96,7 +97,7 @@ body::-webkit-scrollbar {
 
 .input {
     outline: none;
-    height: 48px;
+    height: 38px;
     border: 1px solid #C4C4C4;
     border-radius: 6px;
     color: #433D3D;
@@ -168,6 +169,56 @@ body::-webkit-scrollbar {
     width: 80%;
 }
 
+.text-field-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #06686C;
+    width: 100%;
+    height: fit-content;
+    gap: 8px
+}
+
+.text-field {
+    font-family: "Mulish";
+    outline: none;
+    height: 118px;
+    border: 1px solid #C4C4C4;
+    border-radius: 6px;
+    color: #433D3D;
+    font-size: 15px;
+    padding: 16px 15px ;
+}
+
+.text-field-invalid {
+    border: 1px solid #C94747;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    height: fit-content;
+    align-items: center;   
+}
+
+.checkbox {
+    accent-color: #06686C;
+    width: 22px;
+    height: 22px; 
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
 @media screen and (min-width: 786px) {
-    
+    .tile-container {
+        flex-direction: row;
+        padding: 5px;
+    }
 }

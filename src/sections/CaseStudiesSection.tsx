@@ -31,16 +31,18 @@ const CaseStudiesSection = () => {
             <div className="big-text-field-case-studies">
                 <p>Case Studies</p>
             </div>
-            {caseStudies.map((caseStudie, idx) => (
-                <div className="container-case-studies-img" key={idx}>
-                    <CaseStudiesTile
-                        label={caseStudie.description}
-                        image={caseStudie.img}
-                        imgAlt={caseStudie.imgAlt}
-                        onClick={() => {}}
-                    />
-                </div>
-            ))}
+            <div>
+                {caseStudies.map((caseStudie, idx) => (
+                    <div className="container-case-studies-img" key={idx}>
+                        <CaseStudiesTile
+                            label={caseStudie.description}
+                            image={caseStudie.img}
+                            imgAlt={caseStudie.imgAlt}
+                            onClick={() => {}}
+                            />
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

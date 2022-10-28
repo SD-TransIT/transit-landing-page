@@ -82,15 +82,17 @@ enables distribution managers to better track shipments, make data-driven decisi
                 {featuresDescriptions.map((features, idx) => {
                     if (currentFeature === features.title) {
                         return (
-                            <div key={idx}>
+                            <div key={idx} className='features-field'>
                                 <div className="fourth-images">
-                                    <img src={features.img} alt={features.alt} width='283px' height='262px' />
+                                    <img src={features.img} alt={features.alt} />
                                 </div>
-                                <div className="features-title">
-                                    <p>{features.title}</p>
-                                </div>
-                                <div className="small-text-field-fourth">
-                                    <p>{features.description}</p>
+                                <div className="description-field">
+                                    <div className="features-title">
+                                        <p>{features.title}</p>
+                                    </div>
+                                    <div className="small-text-field-fourth">
+                                        <p>{features.description}</p>
+                                    </div>
                                 </div>
                             </div>
                         )
