@@ -10,7 +10,7 @@ import { RiCloseLine } from "react-icons/ri";
 import '../styles/requestForm.css';
 
 type RequestFormType = {
-  setIsOpen: (x: boolean) => void
+  setIsOpen: (value: boolean) => void
 }
 
 const RequestForm = ({ setIsOpen }: RequestFormType) => {

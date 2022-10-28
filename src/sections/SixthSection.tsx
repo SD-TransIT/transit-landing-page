@@ -19,9 +19,7 @@ const SixthSection = () => {
         <div className="container-sixth">
             <div>
                 <div className="big-text-field-sixth">
-                    <p>
-                        <span>Key Benefits</span> 
-                        of Transportation Management System
+                    <p><span>Key Benefits</span> of Transportation Management System
                     </p>
                 </div>
             </div>

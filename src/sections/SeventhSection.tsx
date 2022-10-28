@@ -15,10 +15,7 @@ const SeventhSection = () => {
         <>
             <div className="container-seventh">
                 <div className="big-text-field-seventh">
-                    <p>
-                        Let’s
-                        <span>Talk</span>
-                    </p>
+                    <p>Let’s<span>Talk</span></p>
                 </div>
                 <div className="small-text-field-seventh">
                     <p>Get in touch with us to start keeping your employees</p>

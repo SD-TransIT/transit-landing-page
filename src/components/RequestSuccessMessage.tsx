@@ -5,7 +5,7 @@ import { RiCloseLine } from "react-icons/ri";
 import succesRequest from '../images/succes-request.jpg'
 
 type RequestSuccessMessageType = {
-  setIsOpen: (x: boolean) => void
+  setIsOpen: (value: boolean) => void
 }
 
 const RequestSuccessMessage = ({ setIsOpen }: RequestSuccessMessageType) => {
