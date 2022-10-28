@@ -1,0 +1,54 @@
+.container-seventh {
+    background: #F3F4F4
+}
+
+.big-text-field-seventh {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 18px;
+    padding-top: 77px;
+    display: flex;
+    justify-content: center;
+}
+
+.big-text-field-seventh > p > span {
+    color: #06686C;
+}
+
+.small-text-field-seventh {
+    font-family: 'Inter';
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+
+.small-text-field-seventh > p > span {
+    color: #06686C;
+    font-weight: 600;
+}
+
+.action-button-seventh {
+    padding-bottom: 69px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 786px) {
+    .big-text-field-seventh {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .small-text-field-seventh {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .small-text-field-seventh > p > span {
+        line-height: 28px;
+    }
+}
