@@ -25,11 +25,6 @@
     padding: 0 10% 0 10%;
 }
 
-.small-text-field-seventh > p > span {
-    color: #06686C;
-    font-weight: 600;
-}
-
 .action-button-seventh {
     padding-bottom: 69px;
     padding-top: 28px;
@@ -38,6 +33,12 @@
 }
 
 @media screen and (min-width: 786px) {
+    .container-seventh {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .big-text-field-seventh {
         font-size: 44px;
         line-height: 55px;
@@ -46,9 +47,7 @@
     .small-text-field-seventh {
         font-size: 21px;
         line-height: 28px;
-    }
-
-    .small-text-field-seventh > p > span {
-        line-height: 28px;
+        width: 30%;
+        margin: auto;
     }
 }

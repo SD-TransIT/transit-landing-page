@@ -12,7 +12,7 @@ const FifthSection = () => (
             </div>
             <div className="small-text-field-fifth">
                 <p>
-                     TransIT and ePOD can be used across donors, countries, and projects with minimal infrastructure, setup, and maintenance costs.
+                    TransIT and ePOD can be used across donors, countries, and projects with minimal infrastructure, setup, and maintenance costs.
                 </p>
             </div>
         </div>

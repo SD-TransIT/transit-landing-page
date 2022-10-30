@@ -28,6 +28,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    margin: auto;
 }
 
 .small-text-field-footer > div {
@@ -38,6 +39,7 @@
 
 .small-text-field-footer > div > p {
     padding-bottom: 10px;
+    margin: auto;
 }
 
 .small-text-field-footer > div > p:first-child {
@@ -107,6 +109,8 @@
 
     .small-text-field-footer > div {
         padding-top: 10px;
+        width: 50%;
+        margin: 0 5%;
     }
 
     .small-text-field-footer > div > p:first-child {
@@ -115,6 +119,10 @@
         padding-bottom: 19px;
     }
 
+    .small-text-field-footer > div > p {
+        margin: 0;
+    }
+    
     .footer-rights {
         justify-content: left;
         padding-top: 100px;

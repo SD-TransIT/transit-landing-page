@@ -49,40 +49,44 @@
     .container-third {
         flex-direction: row-reverse;
         height: fit-content;
-        padding-bottom: 180px;
+        padding: 10% 0 10% 0;
     }
 
     .container-third > div {
         width: 50%;
     }
 
+    .container-third > div:first-of-type {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
     .big-text-field-third {
         font-weight: 600;
         font-size: 42px;
         line-height: 53px;
-        padding-top: 250px;
-        padding-left: 5%;
     }
-
+    
     .big-text-field-third > div {
         display: flex;
         flex-direction: row;
         gap: 6px;
-        color: #433D3D;
     }
-
+    
     .small-text-field-third {
         padding-bottom: 24px;
         width: 413px;
-        padding-left: 5%;
     }
-
+    
     .third-images {
-        padding-top: 160px;
+        padding-right: 5%;
+        justify-content: flex-end;
     }
 
     .third-images > img {
-        width: 572px;
-        height: 516px;
+        width: 85%;
+        height: 85%;
     }
 }

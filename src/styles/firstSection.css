@@ -62,9 +62,9 @@ p.green {
     justify-content: center;
 }
 
-.first-images {
-    width: 283px;
-    height: 262px;
+.first-images > img {
+    width: 293px;
+    height: 272px;
 }
 
 @media screen and (min-width: 786px) {
@@ -72,6 +72,7 @@ p.green {
         flex-direction: row;
         height: 100vh;
         padding-top: 24px;
+
     }
 
     .container-first > div {
@@ -89,15 +90,19 @@ p.green {
         font-size: 54px;
         line-height: 65px;
         font-weight: 600;
-        padding-top: 50%;
+        padding-top: 40%;
+        padding-left: 30%;
+        width: fit-content;
     }
 
     .big-text-field > p {
         justify-content: flex-start;
     }
 
-    small-text-field {
+    .small-text-field {
         font-size: 18px;
+        padding-left: 30%;
+        width: fit-content;
     }
     
     .small-text-field > p {
@@ -112,12 +117,11 @@ p.green {
     }
 
     .first-images{
-        padding-top: 30%;
-        padding-left: 15%;
+        padding-top: 15%;
     }
 
     .first-images > img{
-        width: 634px;
-        height: 634px;
+        width: 85%;
+        height: 85%;
     }
 }
