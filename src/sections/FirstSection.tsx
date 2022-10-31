@@ -41,7 +41,7 @@ const FirstSection = () => {
             </div>
             </div>
             {isOpen && <Modal setIsOpen={setIsOpen}>
-                {!isRequestComplete ?  <RequestForm setIsOpen={setIsOpen}/> : <RequestSuccessMessage setIsOpen={setIsOpen} /> }
+                {isRequestComplete ?  <RequestForm setIsOpen={setIsOpen}/> : <RequestSuccessMessage setIsOpen={setIsOpen} /> }
             </Modal>
             }
         </>

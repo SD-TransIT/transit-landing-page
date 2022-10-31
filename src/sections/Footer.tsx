@@ -19,13 +19,13 @@ const Footer = () => (
                 </div>
             </div>
             <div className="small-text-field-footer">
-                <div className="small-text-field">
+                <div className="small-text-field-footer">
                     <p>Contact</p>
                     <p>Lorem Ipsum Street 23</p>
                     <p>93332 City</p>
                     <p>Country</p>
                 </div>
-                <div className="small-text-field">
+                <div className="small-text-field-footer">
                     <p>Support</p>
                     <p>Manual Guide</p>
                 </div>

@@ -36,8 +36,7 @@ const FourthSection = () => {
     const featuresDescriptions = [
         {
             img: reportTruck,
-            description: `Through the supply of constant information, TransIT creates an “instant report card” that
-enables distribution managers to better track shipments, make data-driven decisions, optimize distribution resources and assets, and use historical data to show trends over time.`,
+            description: `Get a clear overview of your organization with transIT dahsboard. The visual reports will provide you data about deliveries done by your driver, on-time delivery drivers and point deliveries.`,
             title: 'Dashboard',
             alt: 'truck'
         },
@@ -50,15 +49,16 @@ enables distribution managers to better track shipments, make data-driven decisi
         },
         {
             img: deliveredPackage,
-            description: `Through the supply of constant information, TransIT creates an “instant report card” that
-enables distribution managers to better track shipments, make data-driven decisions, optimize distribution resources and assets, and use historical data to show trends over time.`,
+            description: `The Manual Input Forms can be used to Add, Update, and Delete data records in the tool. 
+Enter all the details needed to track your data related to transport, drivers, orders and customers.`,
             title: 'Manual Input',
             alt: 'delivered package'
         },
         {
             img: warehouse,
-            description: `Through the supply of constant information, TransIT creates an “instant report card” that
-enables distribution managers to better track shipments, make data-driven decisions, optimize distribution resources and assets, and use historical data to show trends over time.`,
+            description: `TransIT helps to upload data in the tool using excel.
+You can download the csv template file directly from the page to make sure all your data are in place.
+Drag and drop the file or browse the excel file on the local computer to upload it.`,
             title: 'Excel Upload',
             alt: 'warehouse'
         },

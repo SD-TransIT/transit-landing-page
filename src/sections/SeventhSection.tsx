@@ -18,18 +18,18 @@ const SeventhSection = () => {
                     <p>Let’s<span>Talk</span></p>
                 </div>
                 <div className="small-text-field-seventh">
-                    <p>Get in touch with us to start keeping your employees</p>
                     <p>
-                        <span>email@email.com</span>
+                        Find out how you can gain higher transparency, 
+                        reduce your costs, and improve your organization.
                     </p>
                 </div>
                 <div className="action-button-seventh">
-                    <Button onClick={() => {}} label='Request Demo' type='button' />
+                    <Button onClick={() => setIsOpen(true)} label='Request Demo' type='button' />
                 </div>
             </div>
             {isOpen &&
                 <Modal setIsOpen={setIsOpen}>
-                    {!isRequestComplete ?  <RequestForm setIsOpen={setIsOpen}/> : <RequestSuccessMessage setIsOpen={setIsOpen} /> }
+                    {isRequestComplete ? <RequestForm setIsOpen={setIsOpen}/> : <RequestSuccessMessage setIsOpen={setIsOpen} /> }
                 </Modal>
             }
         </>
