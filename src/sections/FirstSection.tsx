@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Button from '../components/Button'
-import logo from '../images/transit-logo.jpg'
+import logo from '../images/logo.jpg'
 import firstSectionImg from '../images/first-section-img.jpg'
 
 import '../styles/firstSection.css';

@@ -11,8 +11,10 @@
 }
 
 .logo > img {
-    width: 115px;
-    height: 52px;
+    width: 123px;
+    height: 37px;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 .big-text-field {
@@ -80,7 +82,7 @@ p.green {
     }
 
     .logo > img {
-        width: 143px;
+        width: 207px;
         height: 64px;
     }
 

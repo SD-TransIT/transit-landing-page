@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from '../images/transit-logo.jpg'
+import logo from '../images/logo.jpg'
 
 import '../styles/footer.css';
 
@@ -9,7 +9,7 @@ const Footer = () => (
         <div className="footer-info">
             <div>
                 <div className="logo">
-                    <img src={logo} alt="logo" width='115px' height='52px'/>
+                    <img src={logo} alt="logo"/>
                 </div>
                 <div className="footer-motto">
                     <p>
