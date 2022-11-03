@@ -1,6 +1,6 @@
 import React from "react";
 
-import emptyPhone from '../images/empty-phone.jpg'
+import emptyPhone from '../images/app-phone.jpg'
 
 import '../styles/fifthSection.css';
 
